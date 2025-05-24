@@ -11,7 +11,7 @@ Internal operations teams may handle countless tickets per day. This simple inte
 
 #Deployment
 
-Deployed for demo at MoodTrackdemo.streamlit.app
+Deployed for demo at [MoodTrackdemo.streamlit.app](https://moodtrackerdemo.streamlit.app/)
 
 #Usage
 <p align="center">
