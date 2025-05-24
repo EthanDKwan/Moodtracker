@@ -1,9 +1,4 @@
 # -*- coding: utf-8 -*-
-"""
-Created on Sat May 24 13:02:11 2025
-
-@author: edkwa
-"""
 import streamlit as st
 import gspread
 from google.oauth2.service_account import Credentials
@@ -21,11 +16,7 @@ def init_connection():
             st.secrets["gcp_service_account"])
     scoped_creds = creds.with_scopes(SCOPES)
     return gspread.authorize(scoped_creds)
-"""
-creds = init_connection()
-client = gspread.authorize(creds)
-sheet = client.open_by_key(st.secrets["connections"]["gsheets"]["spreadsheet"])
-"""
+
 client = init_connection()
 sheet = client.open_by_url("https://docs.google.com/spreadsheets/d/1uo2H9vWtxUAL2Y7FU6fQi922_Pk7PWGzW75OwpIPFB0/edit?gid=0#gid=0").sheet1
 
