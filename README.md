@@ -10,6 +10,7 @@ Internal operations teams may handle countless tickets per day. This simple inte
 - Visualization: Matplotlib
 
 #Deployment
+
 Deployed for demo at MoodTrackdemo.streamlit.app
 
 #Usage
